@@ -11,7 +11,8 @@
 @interface UITableView (iOS7TableTopSeparator)
 
 @property (nonatomic) BOOL showsIOS7TopSeparator;
-
 @property (nonatomic, readonly) UIView* iOS7TopSeparatorView;
+
++ (void)installIOS7TableTopSeparator;   // sets showsIOS7TopSeparator=YES on UITableView-init
 
 @end

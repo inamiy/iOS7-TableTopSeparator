@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "UITableView+iOS7TableTopSeparator.h"
 
+#define INSTALL_ALL         1
+
 #define NO_SEPARATOR_INSET  1
 
 
@@ -16,9 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+#if INSTALL_ALL
+    [UITableView installIOS7TableTopSeparator];
+#else
     UINavigationController* navC = (id)self.window.rootViewController;
     UITableViewController* tableVC = (id)navC.topViewController;
     tableVC.tableView.showsIOS7TopSeparator = YES;
+#endif
     
 #if NO_SEPARATOR_INSET
     [[UITableView appearance] setSeparatorInset:UIEdgeInsetsZero];

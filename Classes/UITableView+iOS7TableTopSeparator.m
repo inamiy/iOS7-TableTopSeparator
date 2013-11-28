@@ -27,7 +27,7 @@ static const char __topSeparatorViewKey;
 + (void)load
 {
     [UITableView jr_swizzleMethod:@selector(reloadData)
-                       withMethod:@selector(iOS7TableTopBorder_reloadData)
+                       withMethod:@selector(iOS7TableTopSeparator_reloadData)
                             error:NULL];
     
     //
@@ -35,9 +35,9 @@ static const char __topSeparatorViewKey;
     //
 }
 
-- (void)iOS7TableTopBorder_reloadData
+- (void)iOS7TableTopSeparator_reloadData
 {
-    [self iOS7TableTopBorder_reloadData];
+    [self iOS7TableTopSeparator_reloadData];
     
     if (!IS_FLAT_DESIGN) return;
     
@@ -94,6 +94,35 @@ static const char __topSeparatorViewKey;
 - (void)_setIOS7TopSeparatorView:(UIView*)topSeparatorView
 {
     objc_setAssociatedObject(self, &__topSeparatorViewKey, topSeparatorView, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+#pragma mark -
+
+#pragma mark Install
+
++ (void)installIOS7TableTopSeparator
+{
+    [UITableView jr_swizzleMethod:@selector(initWithStyle:reuseIdentifier:)
+                       withMethod:@selector(iOS7TableTopSeparator_initWithStyle:reuseIdentifier:)
+                            error:NULL];
+    
+    [UITableView jr_swizzleMethod:@selector(initWithCoder:)
+                       withMethod:@selector(iOS7TableTopSeparator_initWithCoder:)
+                            error:NULL];
+}
+
+- (id)iOS7TableTopSeparator_initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+{
+    typeof(self) self2 = [self iOS7TableTopSeparator_initWithStyle:style reuseIdentifier:reuseIdentifier];
+    self2.showsIOS7TopSeparator = YES;
+    return self2;
+}
+
+- (id)iOS7TableTopSeparator_initWithCoder:(NSCoder *)aDecoder
+{
+    typeof(self) self2 = [self iOS7TableTopSeparator_initWithCoder:aDecoder];
+    self2.showsIOS7TopSeparator = YES;
+    return self2;
 }
 
 @end
