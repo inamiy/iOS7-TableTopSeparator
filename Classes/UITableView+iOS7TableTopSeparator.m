@@ -102,8 +102,8 @@ static const char __topSeparatorViewKey;
 
 + (void)installIOS7TableTopSeparator
 {
-    [UITableView jr_swizzleMethod:@selector(initWithStyle:reuseIdentifier:)
-                       withMethod:@selector(iOS7TableTopSeparator_initWithStyle:reuseIdentifier:)
+    [UITableView jr_swizzleMethod:@selector(initWithFrame:style:)
+                       withMethod:@selector(iOS7TableTopSeparator_initWithFrame:style:)
                             error:NULL];
     
     [UITableView jr_swizzleMethod:@selector(initWithCoder:)
@@ -111,9 +111,9 @@ static const char __topSeparatorViewKey;
                             error:NULL];
 }
 
-- (id)iOS7TableTopSeparator_initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+- (id)iOS7TableTopSeparator_initWithFrame:(CGRect)frame style:(UITableViewStyle)style
 {
-    typeof(self) self2 = [self iOS7TableTopSeparator_initWithStyle:style reuseIdentifier:reuseIdentifier];
+    typeof(self) self2 = [self iOS7TableTopSeparator_initWithFrame:frame style:style];
     self2.showsIOS7TopSeparator = YES;
     return self2;
 }
