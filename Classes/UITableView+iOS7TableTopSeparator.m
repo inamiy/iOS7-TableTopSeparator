@@ -56,6 +56,7 @@ static const char __topSeparatorViewKey;
 - (void)_addTopSeparatorViewIfPossible
 {
     if (!self.showsIOS7TopSeparator) return;
+    if (self.style == UITableViewStyleGrouped) return;
     if ([self numberOfSections] == 0) return;
     if ([self numberOfRowsInSection:0] == 0) return;
     
