@@ -14,6 +14,10 @@ How to use
 ----------
 
 ```
+// all tableViews
+[UITableView installIOS7TableTopSeparator];
+
+// or, single tableView
 tableView.showsIOS7TopSeparator = YES;
 ```
 
