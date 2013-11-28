@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A3ADDCE507C439DA7083389 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA15FA0E331475A8DD55E6A /* libPods.a */; };
+		48C866A81846EFA400B1AAF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C866A71846EFA400B1AAF9 /* Foundation.framework */; };
+		48C866AA1846EFA400B1AAF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C866A91846EFA400B1AAF9 /* CoreGraphics.framework */; };
+		48C866AC1846EFA400B1AAF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C866AB1846EFA400B1AAF9 /* UIKit.framework */; };
+		48C866B21846EFA400B1AAF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48C866B01846EFA400B1AAF9 /* InfoPlist.strings */; };
+		48C866B41846EFA400B1AAF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C866B31846EFA400B1AAF9 /* main.m */; };
+		48C866B81846EFA400B1AAF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C866B71846EFA400B1AAF9 /* AppDelegate.m */; };
+		48C866BB1846EFA400B1AAF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C866B91846EFA400B1AAF9 /* Main.storyboard */; };
+		48C866C01846EFA400B1AAF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C866BF1846EFA400B1AAF9 /* Images.xcassets */; };
+		48C866C71846EFA400B1AAF9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C866C61846EFA400B1AAF9 /* XCTest.framework */; };
+		48C866C81846EFA400B1AAF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C866A71846EFA400B1AAF9 /* Foundation.framework */; };
+		48C866C91846EFA400B1AAF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C866AB1846EFA400B1AAF9 /* UIKit.framework */; };
+		48C866D11846EFA400B1AAF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48C866CF1846EFA400B1AAF9 /* InfoPlist.strings */; };
+		48C866D31846EFA400B1AAF9 /* iOS7_TableTopSeparatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C866D21846EFA400B1AAF9 /* iOS7_TableTopSeparatorDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48C866CA1846EFA400B1AAF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48C8669C1846EFA400B1AAF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48C866A31846EFA400B1AAF9;
+			remoteInfo = "iOS7-TableTopSeparatorDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48C866A41846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS7-TableTopSeparatorDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C866A71846EFA400B1AAF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48C866A91846EFA400B1AAF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48C866AB1846EFA400B1AAF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		48C866AF1846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS7-TableTopSeparatorDemo-Info.plist"; sourceTree = "<group>"; };
+		48C866B11846EFA400B1AAF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48C866B31846EFA400B1AAF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48C866B51846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS7-TableTopSeparatorDemo-Prefix.pch"; sourceTree = "<group>"; };
+		48C866B61846EFA400B1AAF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48C866B71846EFA400B1AAF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48C866BA1846EFA400B1AAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48C866BF1846EFA400B1AAF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		48C866C51846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS7-TableTopSeparatorDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C866C61846EFA400B1AAF9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		48C866CE1846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS7-TableTopSeparatorDemoTests-Info.plist"; sourceTree = "<group>"; };
+		48C866D01846EFA400B1AAF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48C866D21846EFA400B1AAF9 /* iOS7_TableTopSeparatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS7_TableTopSeparatorDemoTests.m; sourceTree = "<group>"; };
+		7CA15FA0E331475A8DD55E6A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C415E268F9A0413CA915036B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48C866A11846EFA400B1AAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C866AA1846EFA400B1AAF9 /* CoreGraphics.framework in Frameworks */,
+				48C866AC1846EFA400B1AAF9 /* UIKit.framework in Frameworks */,
+				48C866A81846EFA400B1AAF9 /* Foundation.framework in Frameworks */,
+				2A3ADDCE507C439DA7083389 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C866C21846EFA400B1AAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C866C71846EFA400B1AAF9 /* XCTest.framework in Frameworks */,
+				48C866C91846EFA400B1AAF9 /* UIKit.framework in Frameworks */,
+				48C866C81846EFA400B1AAF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48C8669B1846EFA400B1AAF9 = {
+			isa = PBXGroup;
+			children = (
+				48C866AD1846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemo */,
+				48C866CC1846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemoTests */,
+				48C866A61846EFA400B1AAF9 /* Frameworks */,
+				48C866A51846EFA400B1AAF9 /* Products */,
+				C415E268F9A0413CA915036B /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		48C866A51846EFA400B1AAF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48C866A41846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemo.app */,
+				48C866C51846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48C866A61846EFA400B1AAF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48C866A71846EFA400B1AAF9 /* Foundation.framework */,
+				48C866A91846EFA400B1AAF9 /* CoreGraphics.framework */,
+				48C866AB1846EFA400B1AAF9 /* UIKit.framework */,
+				48C866C61846EFA400B1AAF9 /* XCTest.framework */,
+				7CA15FA0E331475A8DD55E6A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48C866AD1846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				48C866B61846EFA400B1AAF9 /* AppDelegate.h */,
+				48C866B71846EFA400B1AAF9 /* AppDelegate.m */,
+				48C866B91846EFA400B1AAF9 /* Main.storyboard */,
+				48C866BF1846EFA400B1AAF9 /* Images.xcassets */,
+				48C866AE1846EFA400B1AAF9 /* Supporting Files */,
+			);
+			path = "iOS7-TableTopSeparatorDemo";
+			sourceTree = "<group>";
+		};
+		48C866AE1846EFA400B1AAF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48C866AF1846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemo-Info.plist */,
+				48C866B01846EFA400B1AAF9 /* InfoPlist.strings */,
+				48C866B31846EFA400B1AAF9 /* main.m */,
+				48C866B51846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48C866CC1846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				48C866D21846EFA400B1AAF9 /* iOS7_TableTopSeparatorDemoTests.m */,
+				48C866CD1846EFA400B1AAF9 /* Supporting Files */,
+			);
+			path = "iOS7-TableTopSeparatorDemoTests";
+			sourceTree = "<group>";
+		};
+		48C866CD1846EFA400B1AAF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48C866CE1846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemoTests-Info.plist */,
+				48C866CF1846EFA400B1AAF9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48C866A31846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C866D61846EFA400B1AAF9 /* Build configuration list for PBXNativeTarget "iOS7-TableTopSeparatorDemo" */;
+			buildPhases = (
+				B8A882CC2A3C4BCABC0CE68D /* Check Pods Manifest.lock */,
+				48C866A01846EFA400B1AAF9 /* Sources */,
+				48C866A11846EFA400B1AAF9 /* Frameworks */,
+				48C866A21846EFA400B1AAF9 /* Resources */,
+				55656CAA4B8D407ABA1FEF35 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS7-TableTopSeparatorDemo";
+			productName = "iOS7-TableTopSeparatorDemo";
+			productReference = 48C866A41846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48C866C41846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C866D91846EFA400B1AAF9 /* Build configuration list for PBXNativeTarget "iOS7-TableTopSeparatorDemoTests" */;
+			buildPhases = (
+				48C866C11846EFA400B1AAF9 /* Sources */,
+				48C866C21846EFA400B1AAF9 /* Frameworks */,
+				48C866C31846EFA400B1AAF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C866CB1846EFA400B1AAF9 /* PBXTargetDependency */,
+			);
+			name = "iOS7-TableTopSeparatorDemoTests";
+			productName = "iOS7-TableTopSeparatorDemoTests";
+			productReference = 48C866C51846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48C8669C1846EFA400B1AAF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Yasuhiro Inami";
+				TargetAttributes = {
+					48C866C41846EFA400B1AAF9 = {
+						TestTargetID = 48C866A31846EFA400B1AAF9;
+					};
+				};
+			};
+			buildConfigurationList = 48C8669F1846EFA400B1AAF9 /* Build configuration list for PBXProject "iOS7-TableTopSeparatorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48C8669B1846EFA400B1AAF9;
+			productRefGroup = 48C866A51846EFA400B1AAF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48C866A31846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemo */,
+				48C866C41846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48C866A21846EFA400B1AAF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C866C01846EFA400B1AAF9 /* Images.xcassets in Resources */,
+				48C866B21846EFA400B1AAF9 /* InfoPlist.strings in Resources */,
+				48C866BB1846EFA400B1AAF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C866C31846EFA400B1AAF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C866D11846EFA400B1AAF9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55656CAA4B8D407ABA1FEF35 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8A882CC2A3C4BCABC0CE68D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48C866A01846EFA400B1AAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C866B81846EFA400B1AAF9 /* AppDelegate.m in Sources */,
+				48C866B41846EFA400B1AAF9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C866C11846EFA400B1AAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C866D31846EFA400B1AAF9 /* iOS7_TableTopSeparatorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48C866CB1846EFA400B1AAF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48C866A31846EFA400B1AAF9 /* iOS7-TableTopSeparatorDemo */;
+			targetProxy = 48C866CA1846EFA400B1AAF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48C866B01846EFA400B1AAF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C866B11846EFA400B1AAF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		48C866B91846EFA400B1AAF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C866BA1846EFA400B1AAF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48C866CF1846EFA400B1AAF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C866D01846EFA400B1AAF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48C866D41846EFA400B1AAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48C866D51846EFA400B1AAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48C866D71846EFA400B1AAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C415E268F9A0413CA915036B /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7-TableTopSeparatorDemo/iOS7-TableTopSeparatorDemo-Prefix.pch";
+				INFOPLIST_FILE = "iOS7-TableTopSeparatorDemo/iOS7-TableTopSeparatorDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		48C866D81846EFA400B1AAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C415E268F9A0413CA915036B /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7-TableTopSeparatorDemo/iOS7-TableTopSeparatorDemo-Prefix.pch";
+				INFOPLIST_FILE = "iOS7-TableTopSeparatorDemo/iOS7-TableTopSeparatorDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		48C866DA1846EFA400B1AAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS7-TableTopSeparatorDemo.app/iOS7-TableTopSeparatorDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7-TableTopSeparatorDemo/iOS7-TableTopSeparatorDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS7-TableTopSeparatorDemoTests/iOS7-TableTopSeparatorDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		48C866DB1846EFA400B1AAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS7-TableTopSeparatorDemo.app/iOS7-TableTopSeparatorDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7-TableTopSeparatorDemo/iOS7-TableTopSeparatorDemo-Prefix.pch";
+				INFOPLIST_FILE = "iOS7-TableTopSeparatorDemoTests/iOS7-TableTopSeparatorDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48C8669F1846EFA400B1AAF9 /* Build configuration list for PBXProject "iOS7-TableTopSeparatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C866D41846EFA400B1AAF9 /* Debug */,
+				48C866D51846EFA400B1AAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C866D61846EFA400B1AAF9 /* Build configuration list for PBXNativeTarget "iOS7-TableTopSeparatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C866D71846EFA400B1AAF9 /* Debug */,
+				48C866D81846EFA400B1AAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C866D91846EFA400B1AAF9 /* Build configuration list for PBXNativeTarget "iOS7-TableTopSeparatorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C866DA1846EFA400B1AAF9 /* Debug */,
+				48C866DB1846EFA400B1AAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48C8669C1846EFA400B1AAF9 /* Project object */;
+}

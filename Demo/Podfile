@@ -1,0 +1,3 @@
+platform :ios, '4.3'
+
+pod 'iOS7-TableTopSeparator', :path => '../'
